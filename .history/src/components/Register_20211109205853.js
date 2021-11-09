@@ -54,7 +54,7 @@ function Register() {
                                         <form onSubmit={handleSubmit} className="formik">
                                             {/* <i className="fas fa-portrait"></i> */}
                                             <input
-                                                type="email" style={{marginTop:30}} className="placehorder form-control em"
+                                                type="email" style={{top:30}}className="placehorder form-control em"
                                                 name="email"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -66,7 +66,7 @@ function Register() {
                                             {errors.email && touched.email && errors.email}
                                             {/* <i className="fas fa-mobile-alt"></i> */}
                                             <input
-                                                type="number" style={{marginTop:30}} className="placehorder form-control num"
+                                                type="number" style={{top:30}}className="placehorder form-control num"
                                                 name="number"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -76,8 +76,8 @@ function Register() {
 
                                             {errors.number && touched.number && errors.number}
                                             {/* <i className="fas fa-disease"></i> */}
-                                            <select name="bloodGroup" style={{marginTop:30}} className="placehorder form-control bloodGroup">
-                                                <option value="volvo">
+                                            <select name="bloodGroup" style={{top:30}}className="placehorder form-control bloodGroup">
+                                                <option value="volvo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                 A +ve</option>
                                                 <option value="saab"></option>
                                                 <option value="mercedes">Mercedes</option>
@@ -87,7 +87,7 @@ function Register() {
                                             {errors.bloodGroup && touched.bloodGroup && errors.bloodGroup}
                                             {/* <i className="fas fa-map-marker-alt"></i> */}
                                             <input
-                                                type="text" style={{marginTop:30}}className="placehorder form-control city"
+                                                type="text" style={{top:30}}className="placehorder form-control city"
                                                 name="city"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -98,7 +98,7 @@ function Register() {
                                             {errors.city && touched.city && errors.city}
                                             {/* <i className="fas fa-unlock-alt"></i> */}
                                             <input
-                                                type="password" style={{marginTop:30}}className="placehorder form-control pass"
+                                                type="password" style={{top:30}}className="placehorder form-control pass"
                                                 name="password"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}

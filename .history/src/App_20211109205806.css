@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.con{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  bottom: 35px;
+  padding: 5px;
+}
+.em{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.pass{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.placehorder::placeholder {
+  font-weight: bolder;
+  color: gray;
+  position: relative;
+  /* left: 25px; */
+  font-size: 17px;
+}
+.forgot{
+  color: gray;
+  font-weight: bolder;
+}
+.login{
+  color: gray;
+  font-weight: bolder;
+}
+.fa-portrait{
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 5px;
+  color: gray;
+}
+.fa-unlock-alt{
+   font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 5px;
+  color: gray;
+}
+.sign{
+  width: 230px;
+  position: relative;
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: #FF3B3B;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+.fa-power-off{
+  font-size: 20px;
+  position: relative;
+ 
+  color: white ;
+}
+.donor{
+  width: 230px;
+  position: relative;
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: #FF3B3B;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  letter-spacing: o.1;
+}
+.fa-heartbeat{
+   font-size: 20px;
+  position: relative;
+
+  color: white ;
+}
+@media screen and (max-width: 440px){
+  
+  .con{
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 35px;
+  padding: 5px;
+}
+.blood{
+  font-size: 27px;
+}
+.formik{
+  position: relative;
+  bottom: 50px;
+}
+.pass{
+  border: none;
+  border-bottom: 2px solid gray;
+  
+}
+
+.donor{
+  width: 210px;
+  position: relative;
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: #FF3B3B;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  letter-spacing: o.1;
+}
+.sign{
+  width: 210px;
+  position: relative;
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: #FF3B3B;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+}
+@media screen and (min-width: 768px){
+ 
+
+  .img{
+  position: relative;
+  width: 400px;
+  left: 40px;
+}
+  .con{
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  bottom: 35px;
+  padding: 5px;
+  left: 50px;
+}
+.blood{
+  font-size: 70px;
+  position: relative;
+  left: 40px;
+}
+
+.name{
+  border: none;
+  border-bottom: 2px solid gray;
+   margin-top: 10px;
+  height: 70px;
+}
+
+
+.adress{
+    border: none;
+  border-bottom: 2px solid gray;
+   margin-top: 10px;
+  height: 70px;
+}
+input::placeholder {
+  font-weight: bolder;
+  color: gray;
+  position: relative;
+  /* left: 45px; */
+  font-size: 30px;
+}
+.fa-portrait{
+  font-size: 25px;
+  position: relative;
+  top: 37px;
+  left: 5px;
+  color: gray;
+}
+.fa-unlock-alt{
+   font-size: 25px;
+  position: relative;
+  top: 35px;
+  left: 5px;
+  color: gray;
+}
+.fa-mobile-alt{
+    font-size: 30px;
+  position: relative;
+  top: 55px;
+  left: 5px;
+  color: gray;
+}
+.fa-map-marker-alt{
+   font-size: 30px;
+  position: relative;
+  top: 55px;
+  left: 5px;
+  color: gray;
+}
+.fa-disease{
+ font-size: 30px;
+  position: relative;
+  top: 55px;
+  left: 5px;
+  color: gray; 
+}
+
+.sign{
+  width: 300px;
+  position: relative;
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: #FF3B3B;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+.donor{
+  width: 300px;
+  position: relative;
+
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: #FF3B3B;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  letter-spacing: o.1;
+}
+
+}
+.header{
+  background-color: #FF3B3B;
+  padding: 3px;
+}
+.fa-chevron-left{
+  color: white;
+}
+.profile{
+  color: white;
+
+}
+.kelly{
+  font-size: 23px;
+  font-weight: bolder;
+}
+.girl{
+  width: 70px;
+  border-radius: 50px;
+  margin-left: 50px;
+  position: relative;
+  bottom: 10px;
+}
+.r1{
+  margin-top: 40px;
+}
+
+.name{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.num{
+   border: none;
+  border-bottom: 2px solid gray;
+}
+.adress{
+    border: none;
+  border-bottom: 2px solid gray;
+}
+.r2{
+  background-color: rgb(247, 238, 238);
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+.update{
+     
+  position: relative;
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: #FF3B3B;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+.fa-mobile-alt{
+   font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 5px;
+  color: gray;
+}
+.bloodGroup{
+   border: none;
+  border-bottom: 2px solid gray;
+}
+.fa-disease{
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 5px;
+  color: gray;
+}
+.city{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.fa-map-marker-alt{
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 5px;
+  color: gray; 
+}
+.fa-arrow-right{
+   font-size: 30px;
+  position: relative;
+ top: 5px;
+  color:white;
+}
+.bodyOfHeader2{
+   background-color: #FF3B3B;
+   color: white;
+}
+.fa-search{
+  position: relative;
+  left: 90%;
+  bottom: 30px;
+  color: gray;
+  font-size: 25px;
+}
+.groups{
+ display: flex;
+ margin-left: 5px;
+}
+.groups >div {
+  background-color: #FF3B3B;
+  width: 30px;
+  margin: 7px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
+.HomeRow{
+  border-bottom: 1px solid gray;
+}
+.sidebar{
+  width: 60%;
+  height: 100vh;
+  position: absolute;
+  background-color: #FF3B3B ;
+  z-index: 1;
+}
+.create{
+  color: white;
+  margin-right: 30px;
+}
+.conReq{
+  margin-top: 20px;
+  background-color: rgb(216, 220, 230);
+  border-radius: 5px;
+}

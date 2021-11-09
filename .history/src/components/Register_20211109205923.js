@@ -54,7 +54,7 @@ function Register() {
                                         <form onSubmit={handleSubmit} className="formik">
                                             {/* <i className="fas fa-portrait"></i> */}
                                             <input
-                                                type="email" style={{marginTop:30}} className="placehorder form-control em"
+                                                type="email" style={{marginTop:30}}className="placehorder form-control em"
                                                 name="email"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -66,7 +66,7 @@ function Register() {
                                             {errors.email && touched.email && errors.email}
                                             {/* <i className="fas fa-mobile-alt"></i> */}
                                             <input
-                                                type="number" style={{marginTop:30}} className="placehorder form-control num"
+                                                type="number" style={{marginTop:30}}className="placehorder form-control num"
                                                 name="number"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}

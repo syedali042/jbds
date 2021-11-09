@@ -54,7 +54,7 @@ function Register() {
                                         <form onSubmit={handleSubmit} className="formik">
                                             {/* <i className="fas fa-portrait"></i> */}
                                             <input
-                                                type="email" style={{marginTop:30}} className="placehorder form-control em"
+                                                type="email" className="placehorder p-3 form-control em"
                                                 name="email"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -66,7 +66,7 @@ function Register() {
                                             {errors.email && touched.email && errors.email}
                                             {/* <i className="fas fa-mobile-alt"></i> */}
                                             <input
-                                                type="number" style={{marginTop:30}} className="placehorder form-control num"
+                                                type="number" className="placehorder p-3 form-control num"
                                                 name="number"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -76,7 +76,7 @@ function Register() {
 
                                             {errors.number && touched.number && errors.number}
                                             {/* <i className="fas fa-disease"></i> */}
-                                            <select name="bloodGroup" style={{marginTop:30}} className="placehorder form-control bloodGroup">
+                                            <select name="bloodGroup" className="placehorder p-3 form-control bloodGroup">
                                                 <option value="volvo">
                                                 A +ve</option>
                                                 <option value="saab"></option>
@@ -87,7 +87,7 @@ function Register() {
                                             {errors.bloodGroup && touched.bloodGroup && errors.bloodGroup}
                                             {/* <i className="fas fa-map-marker-alt"></i> */}
                                             <input
-                                                type="text" style={{marginTop:30}}className="placehorder form-control city"
+                                                type="text" className="placehorder p-3 form-control city"
                                                 name="city"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -98,7 +98,7 @@ function Register() {
                                             {errors.city && touched.city && errors.city}
                                             {/* <i className="fas fa-unlock-alt"></i> */}
                                             <input
-                                                type="password" style={{marginTop:30}}className="placehorder form-control pass"
+                                                type="password" className="placehorder p-3 form-control pass"
                                                 name="password"
                                                 onChange={handleChange}
                                                 onBlur={handleBlur}
@@ -108,7 +108,7 @@ function Register() {
 
                                             {errors.password && touched.password && errors.password}
                                             <div className="row d-flex align-items-center justify-content-center">
-                                                <button type="submit" disabled={isSubmitting} className="sign p-2 mt-3 ml-2 w-100">
+                                                <button type="submit" disabled={isSubmitting} className="sign p-2 mt-3 w-100">
                                                     <i class="fas fa-arrow-right mr-2"></i>Register
                                                 </button>
                                                 <a href="#" className="login p-2">Login Here!</a>
