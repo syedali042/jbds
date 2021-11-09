@@ -29,7 +29,7 @@ function Header2() {
                 <a href="/Home"><h5 style={{ padding: 20,color:'white' }}>Home</h5></a>
                 <a href="/Request"><h5 style={{ padding: 20, color: 'white' }}>Previous Requests</h5></a>
                 <a href="/Create"><h5 style={{ padding: 20, color: 'white' }}>Create Request</h5></a>
-                <a href="/Login"><h5 style={{ padding: 20, color: 'white' }}>Logout</h5></a>
+                <a href="/login"><h5 style={{ padding: 20, color: 'white' }}>Logout</h5></a>
                 {/* <a href="/Campaign"><h4 style={{ padding: 20, color: 'white' }}>Campaign</h4></a> */}
                 {/* <a href=""><h4 style={{ padding: 20, color: 'white' }}>Tips</h4></a> */}
             </div>

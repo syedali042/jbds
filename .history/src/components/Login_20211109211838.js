@@ -77,7 +77,7 @@ function Login() {
                                     
                                     {errors.password && touched.password && errors.password}
                                 <div className="row d-flex align-items-center justify-content-center mt-3">
-                                    <button type="submit" onClick={()=>history.push('Home')} disabled={isSubmitting} className="sign p-2 mt-3 w-100">
+                                    <button type="submit" onClick={()=>} disabled={isSubmitting} className="sign p-2 mt-3 w-100">
                                         <i className="fas fa-power-off mr-2 "></i>Sign In
                                     </button>
                                     <button className="donor p-2 mt-3 ml-2 w-100">

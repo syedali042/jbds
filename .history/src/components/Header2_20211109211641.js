@@ -25,11 +25,9 @@ function Header2() {
                 <div className="col-1"></div>
             </div>
             <div className="sidebar d-none">
-                <a href=""><h5 style={{ padding: 20, color: 'white' }}>Profile</h5></a>
-                <a href="/Home"><h5 style={{ padding: 20,color:'white' }}>Home</h5></a>
-                <a href="/Request"><h5 style={{ padding: 20, color: 'white' }}>Previous Requests</h5></a>
-                <a href="/Create"><h5 style={{ padding: 20, color: 'white' }}>Create Request</h5></a>
-                <a href="/Login"><h5 style={{ padding: 20, color: 'white' }}>Logout</h5></a>
+                <a href=""><h4 style={{ padding: 20, color: 'white' }}>Profile</h4></a>
+                <a href="/Home"><h4 style={{ padding: 20,color:'white' }}>Home</h4></a>
+                <a href="/Request"><h4 style={{ padding: 20, color: 'white' }}>Previous Requests</h4></a>
                 {/* <a href="/Campaign"><h4 style={{ padding: 20, color: 'white' }}>Campaign</h4></a> */}
                 {/* <a href=""><h4 style={{ padding: 20, color: 'white' }}>Tips</h4></a> */}
             </div>
