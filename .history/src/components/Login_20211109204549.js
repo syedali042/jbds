@@ -5,7 +5,7 @@ import {Formik} from 'formik';
 function Login() {
     return (
         <>
-        <div className="w-100 ml-2 mt-2">
+        <div className="w-100 d-flex align-items-center justify-content-center mt-3">
             <a href="/home" className="text-decoration-none forgot p-2">Skip For Now</a>
         </div>
         <div className="container">
@@ -53,7 +53,7 @@ function Login() {
                             <form onSubmit={handleSubmit} className="formik">
                                 {/* <i className="fas fa-portrait"></i> */}
                                     <input
-                                        type="email" className="placehorder form-control em"
+                                    type="email" className="placehorder form-control em"
                                         name="email"
                                         onChange={handleChange}
                                         onBlur={handleBlur}
@@ -74,7 +74,7 @@ function Login() {
                                     />
                                     
                                     {errors.password && touched.password && errors.password}
-                                <div className="row d-flex align-items-center justify-content-center mt-3">
+                                <div className="row d-flex align-items-center justify-content-center">
                                     <button type="submit" disabled={isSubmitting} className="sign p-2 mt-3 w-100">
                                         <i className="fas fa-power-off mr-2 "></i>Sign In
                                     </button>
@@ -82,7 +82,7 @@ function Login() {
                                         <i className="fas fa-heartbeat mr-1 "></i>Become a donor
                                     </button>
                                     <br /><br />
-                                    {/* <a href="#" className="forgot p-2">Forgot Password?</a> */}
+                                    <a href="#" className="forgot p-2">Forgot Password?</a>
 
                                 </div>
                                 

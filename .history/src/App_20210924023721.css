@@ -21,7 +21,7 @@
   font-weight: bolder;
   color: gray;
   position: relative;
-  /* left: 25px; */
+  left: 25px;
   font-size: 17px;
 }
 .forgot{
@@ -90,6 +90,10 @@
 }
 .blood{
   font-size: 27px;
+}
+.img{
+  position: relative;
+  right: 20px;
 }
 .formik{
   position: relative;
@@ -164,7 +168,7 @@ input::placeholder {
   font-weight: bolder;
   color: gray;
   position: relative;
-  /* left: 45px; */
+  left: 45px;
   font-size: 30px;
 }
 .fa-portrait{

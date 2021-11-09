@@ -13,7 +13,7 @@ function About() {
                     <h6>BLDCTN400036</h6>
                 </div>
                 <div className="col-5">
-                    <img src="./images/Azeem Shah.jfif" className=" d-flex align-items-center justify-content-center girl" />
+                    <img src="./images/girl.jpg" className=" d-flex align-items-center justify-content-center girl" />
                 </div>
                 <div className="col-1"></div>
             </div>

@@ -21,7 +21,7 @@
   font-weight: bolder;
   color: gray;
   position: relative;
-  /* left: 25px; */
+  left: 25px;
   font-size: 17px;
 }
 .forgot{
@@ -164,7 +164,7 @@ input::placeholder {
   font-weight: bolder;
   color: gray;
   position: relative;
-  /* left: 45px; */
+  left: 45px;
   font-size: 30px;
 }
 .fa-portrait{
